@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Pires">
+    <meta name="description" content="Estudo sobre APIs e Integrações de Sistemas">
+    <meta name="keywords" content="API, REST, SOAP, Integração, Microserviços">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>APIs e Integrações</title>
+</head>
+
+<body>
+
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div class="nav-logo-center">
+                <a href="index.html" class="nav-logo">APIs e Integrações</a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Início</a></li>
+                    <li class="nav-item"><a href="#introducao" class="nav-link">Introdução</a></li>
+                    <li class="nav-item"><a href="#conceitos" class="nav-link">Conceitos</a></li>
+                    <li class="nav-item"><a href="#niveis" class="nav-link">Níveis</a></li>
+                    <li class="nav-item"><a href="#tipos" class="nav-link">Tipos</a></li>
+                    <li class="nav-item"><a href="#padroes" class="nav-link">Padrões</a></li>
+                    <li class="nav-item"><a href="#apiled" class="nav-link">API-Led</a></li>
+                    <li class="nav-item"><a href="#ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li class="nav-item"><a href="#aplicacoes" class="nav-link">Aplicações</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home bd-grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">
+                    <span class="home-title-color">APIs e Integrações</span><br>
+                    Conceitos, Tipos e Ferramentas
+                </h1>
+                <p>Estudo Abrangente sobre Arquitetura de Software</p>
+            </div>
+            <div class="home-img">
+                <div class="icon-box">{ }</div>
+            </div>
+        </section>
+
+        <section class="about-section" id="introducao">
+            <h2 class="section-title">Introdução às APIs e Integração de Sistemas</h2>
+
+            <div class="about-container bd-grid">
+                <div>
+                    <h2 class="about-subtitle">O que são APIs?</h2>
+                    <p class="about-text">
+                        As Application Programming Interfaces (APIs) representam a espinha dorsal da engenharia de software contemporânea e da arquitetura de sistemas distribuídos. Em essência, uma API consiste em um conjunto formal de regras, especificações, protocolos e ferramentas que permite que diferentes aplicações interajam e compartilhem recursos de forma estruturada.
+                    </p>
+                    <p class="about-text">
+                        Ao definir um contrato claro de entradas, saídas e formatos de dados, as APIs atuam como uma camada de abstração que oculta a complexidade interna dos sistemas subjacentes (Perron et al., 2024; Efuntade & Efuntade, 2023).
+                    </p>
+                    <br>
+                    <h3>Importância Estratégica</h3>
+                    <p class="about-text">
+                        No cenário corporativo atual, a integração de sistemas deixou de ser tratada como um mero detalhe operacional. Converteu-se em uma capacidade estratégica essencial para impulsionar a eficiência operacional, aprimorar a experiência do cliente final e acelerar a velocidade de inovação (Katta, 2025; Linthicum, 1999; Reddy, 2025).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="formation section" id="conceitos">
+            <h2 class="section-title">Conceitos Principais e Mecanismos de Funcionamento</h2>
+            <div class="formation-container bd-grid">
+                <h3>Mecanismos Fundamentais</h3>
+                <p>
+                    Conceitualmente, as APIs são estabelecidas como mecanismos formais projetados para expor rotinas, dados e funcionalidades específicas de uma aplicação sem comprometer ou revelar os detalhes de implementação interna do código-fonte (Efuntade & Efuntade, 2023; Perron et al., 2024).
+                </p>
+                <p>
+                    O modelo operacional segue a arquitetura cliente-servidor: o cliente emite uma requisição formal para um endpoint específico, o servidor processa essa solicitação e retorna uma resposta estruturada (Amer et al., 2026).
+                </p>
+                <br>
+                <h3>Analogia do Garçom</h3>
+                <p>
+                    A analogia clássica é a figura do garçom em um restaurante. O cliente não entra na cozinha para preparar a refeição; interage diretamente com o garçom (a API), que recebe o pedido, transmite as instruções para a cozinha, aguarda a preparação e entrega o resultado em um formato padronizado (Perron et al., 2024).
+                </p>
+                <p>
+                    Em aplicações do cotidiano, como apps meteorológicos ou sistemas de rastreamento, esse fluxo ocorre em frações de segundo.
+                </p>
+            </div>
+        </section>
+
+        <section class="formation section" id="niveis">
+            <h2 class="section-title">Níveis de Integração Empresarial (EAI)</h2>
+            <div class="formation-container bd-grid">
+                <h3>Enterprise Application Integration</h3>
+                <p>
+                    A integração de aplicações de negócios engloba um conjunto coordenado de métodos e tecnologias orientadas a fazer com que sistemas independentes compartilhem dados, processos e serviços de maneira coesa (Sainyaara, 2023; Ferreira, 2013).
+                </p>
+                <br>
+                <h3>Categorização dos Níveis</h3>
+                <ol>
+                    <li><strong>Integração no Nível de Dados:</strong> Compartilhamento direto ou migração de dados entre bancos heterogêneos</li>
+                    <li><strong>Integração no Nível de Aplicações:</strong> Interconexão de lógicas de negócio por meio de interfaces estruturadas</li>
+                    <li><strong>Integração de Métodos e Interfaces:</strong> Padronização das vias de comunicação</li>
+                    <li><strong>Integração no Nível de Processos:</strong> Orquestração de workflows entre múltiplos sistemas</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="formation section" id="tipos">
+            <h2 class="section-title">Tipos e Classificações de APIs</h2>
+            <div class="formation-container bd-grid">
+                <h3>Classificação por Acessibilidade</h3>
+                <br>
+                <ul>
+                    <li><strong>APIs Internas (Private):</strong> Projetadas exclusivamente para uso interno da organização</li>
+                    <li><strong>APIs de Parceiros (Partner):</strong> Expostas com restrições de acesso para parceiros estratégicos</li>
+                    <li><strong>APIs Públicas (Open):</strong> Disponibilizadas abertamente para desenvolvedores externos</li>
+                </ul>
+                <br>
+                <h3>Domínios Especializados</h3>
+                <p>
+                    Destacam-se APIs dedicadas a Processamento de Linguagem Natural (NLP) e Inteligência Artificial, APIs de mídias sociais, APIs geoespaciais e APIs biométricas e de saúde voltadas para dispositivos vestíveis (Perron et al., 2024).
+                </p>
+            </div>
+        </section>
+
+        <section class="projects section" id="padroes">
+            <h2 class="section-title">Padrões de Integração e Arquiteturas</h2>
+
+            <div class="projects-text">
+                <p>Padrões de integração funcionam como blueprints arquiteturais que orientam a troca de dados entre sistemas heterogêneos (Katta, 2025).</p>
+                <br>
+                <table class="projects-table">
+                    <thead>
+                        <tr>
+                            <th>Abordagem</th>
+                            <th>Característica Principal</th>
+                            <th>Contexto Recomendado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Point-to-point</td>
+                            <td>Conexão direta entre dois sistemas</td>
+                            <td>Integrações simples</td>
+                        </tr>
+                        <tr>
+                            <td>Hub-and-spoke (ESB)</td>
+                            <td>Barramento central de serviços</td>
+                            <td>Ambientes corporativos</td>
+                        </tr>
+                        <tr>
+                            <td>Publish-subscribe</td>
+                            <td>Mensageria assíncrona baseada em eventos</td>
+                            <td>Sistemas reativos</td>
+                        </tr>
+                        <tr>
+                            <td>API-led Integration</td>
+                            <td>Arquitetura em três camadas</td>
+                            <td>Transformação digital</td>
+                        </tr>
+                        <tr>
+                            <td>Message Queuing</td>
+                            <td>Enfileiramento com desacoplamento</td>
+                            <td>Processamento em lote</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="formation section" id="apiled">
+            <h2 class="section-title">Arquitetura API-Led Integration</h2>
+            <div class="formation-container bd-grid">
+                <h3>Três Camadas Hierárquicas</h3>
+                <p>
+                    A abordagem API-led integration divide a arquitetura de integração em três camadas hierárquicas (Adusumilli, 2025):
+                </p>
+                <br>
+                <ol>
+                    <li><strong>System APIs:</strong> Isolam a complexidade dos sistemas de registros, fornecendo acesso seguro aos dados brutos</li>
+                    <li><strong>Process APIs:</strong> Combinam e orquestram dados das System APIs, implementando regras de negócio</li>
+                    <li><strong>Experience APIs:</strong> Formatam os dados para consumo por dispositivos específicos</li>
+                </ol>
+                <br>
+                <h3>Benefícios</h3>
+                <p>
+                    Essa arquitetura promove o desacoplamento, facilita a manutenção e permite que diferentes equipes trabalhem de forma independente em cada nível.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills section" id="ferramentas">
+            <h2 class="section-title">Ferramentas, Protocolos e Boas Práticas</h2>
+            <div class="skills-container">
+                <h2 class="skills-subtitle">Tecnologias Fundamentais</h2>
+                <p class="skills-text">
+                    A implementação de ecossistemas orientados a APIs apoia-se em protocolos maduros e ferramentas de suporte ao ciclo de vida de desenvolvimento (Efuntade & Efuntade, 2023; Gummadi, 2024).
+                </p>
+
+                <h3>Protocolos</h3>
+                <dl>
+                    <dt>REST (com JSON)</dt>
+                    <dd>Estilo arquitetural baseado em recursos HTTP</dd>
+                    <dt>SOAP (com XML)</dt>
+                    <dd>Protocolo robusto com forte suporte a transações</dd>
+                    <dt>gRPC</dt>
+                    <dd>Framework de alta performance para microsserviços</dd>
+                    <dt>GraphQL</dt>
+                    <dd>Linguagem de consulta flexível</dd>
+                </dl>
+
+                <h3>Ferramentas de Desenvolvimento</h3>
+                <dl>
+                    <dt>Postman</dt>
+                    <dd>Testes funcionais e automação</dd>
+                    <dt>Swagger UI</dt>
+                    <dd>Documentação interativa</dd>
+                    <dt>API Gateways</dt>
+                    <dd>Gerenciamento de tráfego e autenticação</dd>
+                </dl>
+            </div>
+        </section>
+
+        <section class="formation section" id="aplicacoes">
+            <h2 class="section-title">Aplicações Práticas em Diferentes Setores</h2>
+            <div class="formation-container bd-grid">
+                <h3>Setores Específicos</h3>
+                <br>
+                <ul>
+                    <li><strong>FinTechs e Open Banking:</strong> Conectam gateways de pagamento com rígidos controles de segurança (Adeleke et al., 2024)</li>
+                    <li><strong>Bibliotecas:</strong> Protocolos como SIP2 automatizam empréstimos e busca federada (Mandal & Mandal, 2024)</li>
+                    <li><strong>Setor Público:</strong> Aceleram o acesso a serviços governamentais (Bandaru, 2025)</li>
+                    <li><strong>Indústria Automotiva:</strong> Interfaces padronizadas garantem portabilidade entre plataformas (Schulik et al., 2025)</li>
+                </ul>
+                <br>
+                <h3>Perspectivas Futuras</h3>
+                <p>
+                    Com a evolução de Serverless, Edge Computing e modelos de IA/LLMs, as APIs se consolidam como núcleo da transformação digital (Perron et al., 2024; Seth et al., 2024).
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p id="footer-title">APIs e Integrações - Arquitetura de Software</p>
+        <p>Desenvolvido por Diego Pires - Fatec Sorocaba</p>
+        <p>&copy; 2026</p>
+    </footer>
+
+</body>
+
+</html>
