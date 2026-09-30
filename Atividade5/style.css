@@ -1,0 +1,107 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f172a;
+    color: #ffffff;
+    gap: 20px;
+  }
+
+  .info-resolution {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .box {
+    width: 500px;
+    height: 500px;
+    max-width: 90vw;
+    max-height: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .box h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 420px) {
+    .box {
+      background-color: #64748b;
+    }
+    .box h2::before {
+      content: "Cinza";
+    }
+  }
+
+  @media (min-width: 421px) and (max-width: 768px) {
+    .box {
+      background-color: #f97316;
+    }
+    .box h2::before {
+      content: "Laranja";
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .box {
+      background-color: #2563eb;
+    }
+    .box h2::before {
+      content: "Azul";
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1080px) {
+    .box {
+      background-color: #9333ea;
+    }
+    .box h2::before {
+      content: "Roxo";
+    }
+  }
+
+  @media (min-width: 1081px) and (max-width: 1366px) {
+    .box {
+      background-color: #eab308;
+      color: #1e293b;
+    }
+    .box h2::before {
+      content: "Amarelo";
+    }
+  }
+
+  @media (min-width: 1367px) and (max-width: 1920px) {
+    .box {
+      background-color: #dc2626;
+      content: "Vermelho";
+    }
+  }
+
+  @media (min-width: 1921px) {
+    .box {
+      background-color: #16a34a;
+    }
+    .box h2::before {
+      content: "Verde";
+    }
+  }
