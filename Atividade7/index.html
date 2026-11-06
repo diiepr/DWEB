@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>✊ Pedra, Papel ou Tesoura</h1>
+        <p class="subtitulo">Você contra o computador!</p>
+
+        <div class="jogadas">
+
+            <div class="jogador">
+                <h3>Você</h3>
+                <span id="escolhaJogador">❔</span>
+            </div>
+
+            <div class="jogador">
+                <h3>Computador</h3>
+                <span id="escolhaComputador">❔</span>
+            </div>
+
+        </div>
+
+        <h2>Faça sua escolha:</h2>
+
+        <div class="botoes">
+            <button onclick="jogar('pedra')">✊ Pedra</button>
+            <button onclick="jogar('papel')">✋ Papel</button>
+            <button onclick="jogar('tesoura')">✌️ Tesoura</button>
+        </div>
+
+        <div class="resultado">
+            <h2 id="mensagem">Boa sorte!</h2>
+            <p id="detalhes">Escolha uma opção para começar.</p>
+        </div>
+
+        <button class="reiniciar" onclick="reiniciar()">
+            Reiniciar jogo
+        </button>
+
+    </div>
+
+
+</body>
+</html>
