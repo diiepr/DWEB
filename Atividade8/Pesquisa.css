@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bebdbf;
+    text-align: center;
+    padding: 30px 15px;
+    color: #333;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #394b70;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+input, select {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 22px;
+    background-color: #526b9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d527c;
+}
+
+button.secundario {
+    background-color: #dce2ee;
+    color: #394b70;
+}
+
+#contador {
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+#resultado {
+    margin: 25px auto;
+}
+
+#dadosResultado p {
+    background-color: white;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 4px;
+}

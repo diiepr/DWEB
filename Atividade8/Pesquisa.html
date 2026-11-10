@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Cinema</title>
+    <link rel="stylesheet" href="Pesquisa.css">
+    <script src="Pesquisa.js"></script>
+</head>
+<body>
+
+    <main>
+
+        <h1>Avaliação de Cinema</h1>
+        <p class="subtitulo">Queremos saber sua opinião sobre o filme!</p>
+
+        <form id="formulario">
+
+            <label for="opiniao">Como você avalia o filme?</label>
+            <select id="opiniao" required>
+                <option value="">Escolha uma opção</option>
+                <option value="4">Ótimo</option>
+                <option value="3">Bom</option>
+                <option value="2">Regular</option>
+                <option value="1">Péssimo</option>
+            </select>
+
+            <label for="idade">Qual é a sua idade?</label>
+            <input type="number" id="idade" min="1" max="120" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" required>
+                <option value="">Escolha uma opção</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outros">Outros</option>
+            </select>
+
+            <button type="submit">Enviar resposta</button>
+
+            <button type="button" id="verResultados" class="secundario">
+                Consultar pesquisa
+            </button>
+
+        </form>
+
+        <p id="contador">Respostas recebidas: 0 de 45</p>
+
+        <section id="resultado" hidden>
+            <h2>Resultado da pesquisa</h2>
+            <div id="dadosResultado"></div>
+        </section>
+
+    </main>
+
+    
+
+</body>
+</html>
